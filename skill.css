@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.header {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.writing-tools, .design-tools {
+    width: 45%;
+    text-align: left;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+ul ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    color: #333;
+}
+/* Add this to the existing CSS file */
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Programming Languages Section */
+.programming-section {
+    background-color: #333;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+
+.programming-section h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.programming-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.programming-icon {
+    width: 200px;
+    height: auto;
+}
+
+.programming-list {
+    list-style: none;
+    text-align: left;
+}
+
+.programming-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.programming-list li::before {
+    content: "•";
+    margin-right: 10px;
+    color: white;
+}
