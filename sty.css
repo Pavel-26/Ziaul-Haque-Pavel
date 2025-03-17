@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #d2c9a8;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #555;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.quote {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote h1 {
+    font-size: 28px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.quote p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.about {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.about img {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-top: 50px; /* Ensures space above this section */
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Aligns the image and text to the top */
+    gap: 20px; /* Adds space between the image and the text */
+}
+
+.about-image {
+    max-width: 200px; /* Sets the width of the image */
+    height: auto; /* Ensures image scales proportionally */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.about-text {
+    flex: 1;
+    text-align: justify; /* Ensures the paragraph is aligned and justified */
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+/* General Content Styling */
+.main-content {
+    margin-left: 250px; /* Ensure it stays separate from the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust width based on the sidebar width */
+    background-color: #f5f5f5;
+}
+
+/* Research Interests Section */
+.research-interests {
+    background-color: #002f47; /* Dark blue background */
+    padding: 40px;
+    color: #fff;
+    margin-top: 30px; /* Adds space between sections */
+    margin-bottom: 30px;
+}
+
+.research-interests h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #d2c9a8; /* Light tan color matching the sidebar */
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.interests-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests-row ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.8;
+    width: 45%; /* Adjusts each column width */
+}
+
+.interests-row ul li {
+    font-size: 18px;
+    color: #fff;
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar section fix */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+/* Padding for main content to avoid overlap */
+main {
+    padding-top: 100px; /* Adjust this based on the navbar height */
+}
+
