@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+p {
+    color: green;
+}
+.bordered-div {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.styled-div {
+    padding: 20px;
+    margin: 30px;
+    background-color: lightgray;
+}
+.hover-button {
+background-color: lightgray;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+.popular img{
+    width: 50%;
+    margin-top: 12px;
+}
+.hidden-paragraph {
+display: none;
+}
+.styled-list {
+list-style-type: square;
+color: blue;
+}

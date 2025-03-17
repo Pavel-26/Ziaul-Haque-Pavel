@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: white;
+    min-height: 100vh;
+}
+
+/* Sidebar section */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    position: fixed; /* Sidebar is fixed to the side */
+    height: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content section */
+.main-content {
+    margin-left: 220px; /* To create space for the sidebar */
+    width: calc(100% - 220px); /* Ensures that the main content takes the remaining space */
+    padding: 20px;
+}
+
+/* Navbar section */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+/* Footer section */
+.footer-container {
+    background-color: #2f2f2f;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-container h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 50px;
+    border: 2px solid #f26522;
+    margin: 0 auto 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column h3 {
+    font-size: 1.5em;
+    color: #7CFC00;
+    margin-bottom: 20px;
+}
+
+.column ul {
+    list-style-type: none;
+}
+
+.column ul li {
+    margin: 10px 0;
+}
+
+.column ul li a {
+    color: #f26522;
+    text-decoration: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+}
+
+form button {
+    padding: 10px;
+    background-color: #f26522;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    margin-top: 40px;
+    color: #ccc;
+}
+
+footer p {
+    font-size: 0.8em;
+}
