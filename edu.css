@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#academic-background {
+  text-align: center;
+  padding: 20px;
+}
+
+.academic-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.academic-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.academic-item img {
+  max-width: 100%;
+  height: auto;
+}
